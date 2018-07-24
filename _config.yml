@@ -13,7 +13,7 @@ twitter_username: arsh__official
 github_username:  iamarshsingh
 
 # Google-analytics
-google-analytics:
-  id: ""
+# google-analytics:
+#  id: ""
 
 exclude: ['package.json', 'src' , 'node_modules']
