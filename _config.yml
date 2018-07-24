@@ -1,12 +1,12 @@
 # Site settings
-title: Arshdeep Singh
+title: Arshdeep Singh's Portfolio
 description: Arshdeep Singh's Portfolio
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-
+url: "http://arshdeepsingh.me"
 # User settings
 username: Arshdeep Singh
-user_description: Computer Science Undergraduate Student at BITS Pilani, Goa Campus. Interested in Machine Learning, Oper Source Development and Competative Coding.
+user_description: I am a Computer Science Undergraduate Student at BITS Pilani, Goa Campus. I am interested in Machine Learning, Oper Source Development and Competitive Coding. Check out my projects!
 user_title: Software Developer
 email: singh.arshdeep1999@gmail.com
 twitter_username: arsh__official
