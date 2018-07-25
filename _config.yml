@@ -12,8 +12,8 @@ email: singh.arshdeep1999@gmail.com
 twitter_username: arsh__official
 github_username:  iamarshsingh
 
-# Google-analytics
-# google-analytics:
-#  id: ""
+#Google-analytics
+google-analytics:
+ id: "UA-122887175-1"
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ['package.json', 'src' , 'node_modules'] 
