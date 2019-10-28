@@ -1,19 +1,67 @@
-# Site settings
-title: Arshdeep Singh's Portfolio
-description: Arshdeep Singh's Portfolio
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-url: "http://arshdeepsingh.me"
-# User settings
-username: Arshdeep Singh
-user_description: I am a Computer Science Undergraduate Student at BITS Pilani, Goa Campus. I am interested in Machine Learning, Oper Source Development and Competitive Coding. Check out my projects!
-user_title: Software Developer
-email: singh.arshdeep1999@gmail.com
-twitter_username: arsh__official
-github_username:  iamarshsingh
+### Site Settings ###
+title               : Arshdeep Singh
+description         : >-                                    # >- means to ignore newlines until "url:"
+                      Computer Science @ BITS Pilani'21
+                      Software Developer || ML Enthusiast
+                      Competitive Coder
 
-#Google-analytics
-google-analytics:
- id: "UA-122887175-1"
+url                 : ""                                    # base hostname & protocol for your site (e.g. http://example.com)
+baseurl             : ""                                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
+repository          : iamarshsingh/iamarshsingh.github.io   # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
+#remote_theme       : YoussefRaafatNasry/portfolYOU         # uncomment this if you are using it as a remote theme
 
-exclude: ['package.json', 'src' , 'node_modules'] 
+### Author Info ###
+author:
+  name              : Arshdeep Singh
+  image             : https://qph.fs.quoracdn.net/main-raw-125450139-oxbhmwrbdqacllplghdfazyifvjqouhl.jpeg
+# behance           : your_username
+# dribbble          : your_username
+  email             : singh.arshdeep1999@gmail.com
+  facebook          : sahibs99
+  github            : iamarshsingh
+# gitlab            : your_username
+  instagram         : arshsingh_official
+  linkedin          : iamarshdeepsingh
+  medium            : arsh99
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  twitter           : arsh__official
+# vimeo             : your_username
+# youtube           : your_channel_name
+
+
+### Pagination ###
+paginate: 6
+paginate_path: "/articles/page-:num/"
+
+
+### Posts Permalink ###
+permalink: articles/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+
+### Exclude from processing ###
+exclude:
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock

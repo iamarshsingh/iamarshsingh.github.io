@@ -1,0 +1,15 @@
+- name: Algorithms and Data Structures
+  percentage: 75
+  color: danger
+
+- name: C/C++ Programming
+  percentage: 70
+  color: blue
+
+- name: Machine Learning
+  percentage: 70
+  color: dark
+
+- name: System Programming
+  percentage: 60
+  color: blue
