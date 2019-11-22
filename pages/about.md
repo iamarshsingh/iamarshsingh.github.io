@@ -37,7 +37,7 @@ I am a Experienced Software Developer with a demonstrated history of working in 
     </div>
     <div class="form-group">
         <label for="exampleInputMessage">Your Message</label>
-        <input type="textarea" name="message" class="form-control" id="exampleInputMessage" placeholder="Enter your message" required="required">
+        <textarea class="form-control" name="message" placeholder="Enter your message" required="required"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
